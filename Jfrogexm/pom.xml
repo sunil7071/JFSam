@@ -1,0 +1,21 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.sample</groupId>
+  <artifactId>Jfrogexm</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
+  <name>Jfrogexm</name>
+  <description>Jfrogexm	</description>
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>inbasdpc08658-releases</name>
+        <url>http://172.19.82.1:8040/artifactory/Jfsample</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>inbasdpc08658-snapshots</name>
+        <url>http://172.19.82.1:8040/artifactory/Jfsample</url>
+    </snapshotRepository>
+</distributionManagement>
+</project>
